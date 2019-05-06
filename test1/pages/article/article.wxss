@@ -1,3 +1,4 @@
+@import './article-item-template/article-item-template.wxss';
 swiper{
   height: 400rpx;
   width: 100%;
@@ -8,36 +9,4 @@ swiper-item{
 .article-wrap{
   width: 100%;
   margin-top: 10rpx;
-}
-.article-item{
-  margin-bottom: 10rpx;
-}
-.article-head-avatar{
-  width: 60rpx;
-  height: 60rpx;
-  border-radius: 50%;
-  margin-left: 10rpx;
-  margin-right: 10rpx;
-  vertical-align: -5rpx;
-}
-.article-title{
-  margin-left: 10rpx;
-}
-.article-img{
-  width: 100%;
-  height: 400rpx;
-  margin-top: 10rpx;
-}
-.article-desc{
-  margin-top: 20rpx;
-  margin-bottom: 20rpx;
-  margin-left: 10rpx;
-}
-.article-footer-icon{
-  width: 60rpx;
-  height: 60rpx;
-  border-radius: 50%;
-  margin-left: 10rpx;
-  margin-right: 10rpx;
-  vertical-align: -5rpx;
 }
