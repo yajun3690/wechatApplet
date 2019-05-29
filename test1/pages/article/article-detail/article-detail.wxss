@@ -1,3 +1,69 @@
-text{
-  color: red;
+.article-detail .focus{
+  position: relative;
+  width: 100%;
+  height:200px;
+}
+.article-detail .focus .focus-bg{
+  width: 100%;
+  height:100%;
+}
+.article-detail .focus .focus-music{
+  position: absolute;
+  left: 50%;
+  top: 200rpx;
+  width: 60rpx;
+  height: 60rpx;
+  margin-left:-30rpx;
+}
+.article-detail .head{
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin: 10rpx 0 10rpx 0;
+}
+.article-detail .head .avater{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.article-detail .head text{
+  margin-left: 10rpx;
+  font-size: 14px;
+  color: #333;
+}
+.article-detail .title{
+  width: 100%;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.article-detail .operation{
+  position: relative;
+  margin-left: 10rpx;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80px;
+}
+.article-detail .operation .operation-collection,.article-detail .operation .operation-share{
+  position: absolute;
+  top: 50rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+.article-detail .operation .operation-collection{
+  right: 20px;
+}
+.article-detail .operation .operation-share{
+  right: 60px;
+}
+.article-detail .operation .operation-line{
+  position: absolute;
+  top: 40rpx;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+}
+.content{
+  margin-top: 30px;
 }
