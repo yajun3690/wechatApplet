@@ -17,7 +17,7 @@
   <view class='article-wrap'>
         <block wx:for='{{articles}}'wx:for-item="article" wx:index='idx' wx:key='idx'>
         
-          <view bindtap='tapArticleItem'>
+          <view bindtap='tapArticleItem'data-article-id='{{article.articleId}}'>
           <template is="articleItem" data="{{...article}}" />
           </view>  
       
