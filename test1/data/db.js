@@ -3,7 +3,7 @@ var articles = [
     avatar: '../../images/swiper/s1.jpg',
     date: '2019-5-6',
     title: '我是标题1',
-    img: '../../images/swiper/s2.jpg',
+    img: '../../images/swiper/q1.png',
     desc: '我是描述',
     star: '30',
     view: '40',
