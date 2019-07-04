@@ -1,10 +1,10 @@
 <view class="container article-detail">
   <view class='focus'>
-    <image class='focus-bg' src='/images/swiper/s1.jpg'></image>
-    <image class='focus-music' src='/images/icon/dianzan.png'></image>
+    <image class='focus-bg' src='{{img}}'></image>
+    <image class='focus-music' src='{{img}}'></image>
   </view>
   <view class='head'>
-    <image class='avater' src='/images/swiper/s1.jpg'></image>
+    <image class='avater' src='{{img}}'></image>
     <text class='author'>YajJun</text>
     <text class='txt'>发表于</text>
     <text class='time'>3天前</text>
@@ -13,7 +13,7 @@
   <text class='title'>我是标题</text>
   <view class='operation'>
     <image class='operation-collection'
-    src='/images/icon/dianzan.png'>
+    src='{{img}}'>
     </image>
     <image class='operation-share'
     src='/images/icon/shoucang.png'>
