@@ -47,9 +47,13 @@
 }
 .article-detail .operation .operation-collection,.article-detail .operation .operation-share{
   position: absolute;
-  top: 50rpx;
+  top: 0rpx;
   width: 80rpx;
   height: 80rpx;
+  background: #eef;
+  color: white;
+  border-radius: 80rpx;
+  z-index: 9;
 }
 .article-detail .operation .operation-collection{
   right: 20px;

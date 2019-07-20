@@ -1,10 +1,10 @@
 <view class="container article-detail">
   <view class='focus'>
     <image class='focus-bg' src='{{img}}'></image>
-    <image class='focus-music' src='{{img}}'></image>
+    <image bindtap="tapMusic" class='focus-music' src='{{isPlaying?"/images/icon/music.png":"/images/icon/music2.png"}}'></image>
   </view>
   <view class='head'>
-    <image class='avater' src='{{img}}'></image>
+    <image class='avater' src='{{avatar}}'></image>
     <text class='author'>YajJun</text>
     <text class='txt'>发表于</text>
     <text class='time'>3天前</text>
@@ -12,12 +12,20 @@
   </view>
   <text class='title'>我是标题</text>
   <view class='operation'>
-    <image class='operation-collection'
-    src='{{img}}'>
+    <image bindtap='tapShare' class='operation-share'
+    src='/images/icon/fenxiang.png'>
     </image>
-    <image class='operation-share'
-    src='/images/icon/shoucang.png'>
+    <image wx:if='{{isCollected}}' bindtap='tapCollect'       
+    class='operation-collection'
+    src='/images/icon/shoucang2.png'
+    >
     </image>
+    <image wx:else='{{isCollected}}' bindtap='tapCollect'       
+    class='operation-collection'
+    src='/images/icon/shoucang.png'
+    >
+    </image>
+
     <view class='operation-line'></view>
   </view>
   <text class='content'>我是详细内容</text>

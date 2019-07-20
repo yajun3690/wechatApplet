@@ -1,7 +1,11 @@
 {
   "pages": [
-  "pages/article/article",  "pages/article/article-detail/article-detail",
-    "pages/index/index"
+    "pages/movie/movie",
+    "pages/movie/movie-more/movie-more",
+    "pages/article/article",
+    "pages/index/index",
+  "pages/article/article-detail/article-detail"
+  
   ],
   "window": {
     "navigationBarBackgroundColor": "#f00",
@@ -10,7 +14,29 @@
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": true
+    
+  
   },
-
+  "tabBar": {
+    "color": "#111",
+    "selectedColor": "red",
+    "borderStyle": "white",
+    "position":"bottom",
+    "list": [
+      {
+      "pagePath": "pages/article/article",
+      "text": "文章",
+      "iconPath":"/images/icon/reading.png",
+      "selectedIconPath":"/images/icon/reading2.png"
+      },
+      {
+      "pagePath": "pages/movie/movie",
+      "text": "电影",
+      "iconPath": "/images/icon/dianying.png",
+      "selectedIconPath": "/images/icon/dianying2.png"
+      }
+    ]
+  },
+  "requiredBackgroundModes": ["audio"],
   "sitemapLocation": "sitemap.json"
 }
